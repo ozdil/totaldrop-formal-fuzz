@@ -1,0 +1,13 @@
+# SPDX-FileCopyrightText: 2026 The TotalDrop Contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+/target
+/fuzz/target
+/fuzz/corpus
+/fuzz/artifacts
+*.swp
+.DS_Store
+
+# Python bytecode (formal/mutants.py)
+__pycache__/
+*.pyc
